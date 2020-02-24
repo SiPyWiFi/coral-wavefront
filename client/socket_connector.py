@@ -1,10 +1,12 @@
 import cv2
 import time
 from PIL import Image
-# Import socket module 
 import socket			 
 
-
+filename = "./secret/ip_config.txt"
+f = open(filename, "r")
+ip_addr = f.read()
+f.close
 # load camera modul
 cap = cv2.VideoCapture(0)
 cap.isOpened()
@@ -16,7 +18,7 @@ s = socket.socket()
 port = 12346				
 
 # connect to the server on local computer 
-s.connect(('192.168.178.40', port)) 
+s.connect((ip_addr, port)) 
 
 # receive data from the server 
 print(s.recv(1024))
