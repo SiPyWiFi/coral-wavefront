@@ -1,1 +1,3 @@
 !secret/*.*
+secret/ip_config.txt
+secret/*.*
