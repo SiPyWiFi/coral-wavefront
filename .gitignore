@@ -1,3 +1,4 @@
 !secret/*.*
 secret/ip_config.txt
 secret/*.*
+*.ipynb_checkpoints

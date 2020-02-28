@@ -3,7 +3,7 @@ import time
 from PIL import Image
 import socket			 
 
-filename = "./secret/ip_config.txt"
+filename = "../secret/ip_config.txt"
 f = open(filename, "r")
 ip_addr = f.read()
 f.close
