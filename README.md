@@ -5,24 +5,24 @@ The wavefronts are created with a deformable mirror.
 
 ## Overview
 
-│   .gitignore                          │  
-│   README.md   						│  
-│   server_ip_input.py					│-> Sets server IP  
-│   									│  
-├───client								│  
-│   │   socket_connector.py				│-> Connects TPU to PC  
-│           							│  
-├───secret								│  
-│       ip_config.txt					│-> IP config  
-│       								│  
-├───server								│  
-│   │   snap.png						│-> Snapshot  
-│   │   socket_connector_to_board.ipynb	│-> Starts server  
-│           							│  
-└───tensorflow							│  
-    │   createTestModel.ipynb			│-> Converts TF Model to TF Lite  
-    │       							│  
-    └───models							│-> Trained models  
+│   .gitignore  
+│   README.md  
+│   server_ip_input.py   
+│    
+├───client  
+│   │   socket_connector.py    
+│    
+├───secret  
+│       ip_config.txt  
+│  
+├───server  
+│   │   snap.png   
+│   │   socket_connector_to_board.ipynb  
+│  
+└───tensorflow  
+    │   createTestModel.ipynb  
+    │  
+    └───models  
 
 
 ### Markdown
