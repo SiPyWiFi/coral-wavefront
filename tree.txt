@@ -1,0 +1,34 @@
+Folder PATH listing
+Volume serial number is 689C-8DE5
+C:.
+³   .gitignore
+³   LICENSE
+³   README.md
+³   server_ip_input.py
+³   tree.txt
+³   _config.yml
+³   
+ÃÄÄÄclient
+³   ³   socket_connector.py
+³   ³   
+³   ÀÄÄÄ.ipynb_checkpoints
+³           socket_connector-checkpoint.py
+³           
+ÃÄÄÄsecret
+³       ip_config.txt
+³       
+ÃÄÄÄserver
+³   ³   snap.png
+³   ³   socket_connector_to_board.ipynb
+³   ³   
+³   ÀÄÄÄ.ipynb_checkpoints
+³           snap-checkpoint.png
+³           socket_connector_to_board-checkpoint.ipynb
+³           
+ÀÄÄÄtensorflow
+    ³   createTestModel.ipynb
+    ³   
+    ÃÄÄÄ.ipynb_checkpoints
+    ³       createTestModel-checkpoint.ipynb
+    ³       
+    ÀÄÄÄmodels
